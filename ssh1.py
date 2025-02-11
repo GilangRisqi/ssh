@@ -40,4 +40,4 @@ except Exception as e:
 finally:
     # Menutup koneksi SSH
     ssh_client.close()
-    print("Koneksi SSH ditutup.")
+    print("Koneksi SSH telah ditutup.")
